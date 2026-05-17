@@ -1,0 +1,49 @@
+name: Research proposal
+description: Propose a research brief, working paper, evidence review, or crosswalk.
+title: "[Research]: "
+labels: ["status:needs-triage"]
+body:
+  - type: dropdown
+    id: output_type
+    attributes:
+      label: Output type
+      options:
+        - Research brief
+        - Working paper
+        - Evidence table
+        - Framework crosswalk
+        - Consensus report support
+        - Literature review
+        - Source correction
+        - Methods improvement
+    validations:
+      required: true
+  - type: textarea
+    id: research_question
+    attributes:
+      label: Research question or proposal
+      description: What should AAB investigate or synthesize?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Learner context, grade band, institution type, geography, policy context, or standards topic.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or registry records
+      description: Link public sources, AAB registry record IDs, dated exports, or relevant frameworks.
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended use
+      description: Website publication, standards evidence trace, policy brief, internal review, or other use.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have not included credentials, private student data, confidential partner documents, or private contact lists.
+          required: true
