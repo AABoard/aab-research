@@ -1,8 +1,8 @@
-# AAB Research
+# AABoard Research
 
-This repository is the public collaboration layer for AAB research synthesis, research briefs, methods notes, evidence reviews, and working papers related to AI literacy, AI education, assessment, policy, and standards development.
+This repository is the public collaboration layer for AABoard research synthesis, research briefs, methods notes, evidence reviews, and working papers related to AI literacy, AI education, assessment, policy, and standards development.
 
-MongoDB remains the live structured registry database. The AAB website remains the public publishing layer. This repository is where research questions, methods, source traces, drafts, review packets, and publication-ready research artifacts can be developed transparently before they become official AAB outputs.
+MongoDB remains the live structured registry database. The AABoard website remains the public publishing layer. This repository is where research questions, methods, source traces, drafts, review packets, and publication-ready research artifacts can be developed transparently before they become official AAB outputs.
 
 ## What Belongs Here
 
@@ -12,7 +12,7 @@ MongoDB remains the live structured registry database. The AAB website remains t
 - Literature review notes and annotated bibliographies.
 - Research question backlogs.
 - Source-quality rubrics and evidence review protocols.
-- Analysis templates based on public AAB registry exports.
+- Analysis templates based on public AABoard registry exports.
 - Publication checklists and peer-review packets.
 
 ## What Does Not Belong Here
@@ -39,15 +39,15 @@ MongoDB remains the live structured registry database. The AAB website remains t
 ## Collaboration Flow
 
 1. A contributor opens a research proposal, source review, or draft issue.
-2. AAB reviewers check source trace, public suitability, privacy risk, and relationship to existing registry data.
+2. AABoard reviewers check source trace, public suitability, privacy risk, and relationship to existing registry data.
 3. Drafts are developed through pull requests with evidence tables and limitations.
-4. Accepted outputs may be published on the AAB website or cited by standards work.
+4. Accepted outputs may be published on the AABoard website or cited by standards work.
 5. Source traces remain available here so public claims can be audited.
 
 ## Research Principles
 
 - Anchor claims in source-traced evidence.
-- Distinguish evidence, interpretation, and AAB recommendations.
+- Distinguish evidence, interpretation, and AABoard recommendations.
 - Preserve uncertainty, limitations, and review status.
 - Avoid product, provider, school, or platform endorsement.
 - Use public registry exports and source links when possible.
